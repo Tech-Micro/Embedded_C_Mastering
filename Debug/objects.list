@@ -1,3 +1,4 @@
+"./Core/Src/C_Language/dummy.o"
 "./Core/Src/Protocols/LED/Led.o"
 "./Core/Src/Protocols/Switch/Switch_Control.o"
 "./Core/Src/Protocols/UART/Uart.o"

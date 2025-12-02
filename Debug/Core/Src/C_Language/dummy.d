@@ -1,5 +1,6 @@
-Core/Src/Rtos/Init.o: ../Core/Src/Rtos/Init.c ../Core/Inc/RTOS/Init.h \
- ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+Core/Src/C_Language/dummy.o: ../Core/Src/C_Language/dummy.c \
+ ../Core/Inc/C_Language/dummy.h ../Core/Inc/main.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
@@ -49,7 +50,7 @@ Core/Src/Rtos/Init.o: ../Core/Src/Rtos/Init.c ../Core/Inc/RTOS/Init.h \
  ../Core/Inc/RTOS/Mutex.h ../Core/Inc/RTOS/Queue.h \
  ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/C_Language/dummy.h
 
-../Core/Inc/RTOS/Init.h:
+../Core/Inc/C_Language/dummy.h:
 
 ../Core/Inc/main.h:
 

@@ -20,6 +20,7 @@ OBJCOPY_BIN :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Core/Src/C_Language \
 Core/Src/Protocols/LED \
 Core/Src/Protocols/Switch \
 Core/Src/Protocols/UART \

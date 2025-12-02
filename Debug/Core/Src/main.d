@@ -47,7 +47,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/Protocols/Switch/Switch_Control.h \
  ../Core/Inc/Protocols/LED/Led.h ../Core/Inc/RTOS/Counting_Semaphore.h \
  ../Core/Inc/RTOS/Mutex.h ../Core/Inc/RTOS/Queue.h \
- ../Core/Inc/Protocols/UART/Uart.h \
+ ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/C_Language/dummy.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 
@@ -156,6 +156,8 @@ D:/One_drive/OneDrive/Tech_Micro/Personal/Complete_Embedded_C/Mastering_In_Embed
 ../Core/Inc/RTOS/Queue.h:
 
 ../Core/Inc/Protocols/UART/Uart.h:
+
+../Core/Inc/C_Language/dummy.h:
 
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
 

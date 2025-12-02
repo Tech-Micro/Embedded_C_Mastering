@@ -48,6 +48,8 @@ extern "C" {
 #include "RTOS/Mutex.h"
 #include "RTOS/Queue.h"
 #include "Protocols/UART/Uart.h"
+
+#include "C_Language/dummy.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

@@ -47,7 +47,7 @@ Core/Src/Rtos/Queue.o: ../Core/Src/Rtos/Queue.c ../Core/Inc/RTOS/Queue.h \
  ../Core/Inc/Protocols/Switch/Switch_Control.h \
  ../Core/Inc/Protocols/LED/Led.h ../Core/Inc/RTOS/Counting_Semaphore.h \
  ../Core/Inc/RTOS/Mutex.h ../Core/Inc/RTOS/Queue.h \
- ../Core/Inc/Protocols/UART/Uart.h
+ ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/C_Language/dummy.h
 
 ../Core/Inc/RTOS/Queue.h:
 
@@ -156,3 +156,5 @@ D:/One_drive/OneDrive/Tech_Micro/Personal/Complete_Embedded_C/Mastering_In_Embed
 ../Core/Inc/RTOS/Queue.h:
 
 ../Core/Inc/Protocols/UART/Uart.h:
+
+../Core/Inc/C_Language/dummy.h:

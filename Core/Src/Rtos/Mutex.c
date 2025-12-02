@@ -36,6 +36,6 @@ void SensorTask(void *argument)
 
 int Read_Temperature()
 {
-	int temp=35;
+	int temp=54;
 	return temp;
 }

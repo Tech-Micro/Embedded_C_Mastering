@@ -22,6 +22,7 @@ RM := rm -rf
 -include Core/Src/Protocols/UART/subdir.mk
 -include Core/Src/Protocols/Switch/subdir.mk
 -include Core/Src/Protocols/LED/subdir.mk
+-include Core/Src/C_Language/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
 
