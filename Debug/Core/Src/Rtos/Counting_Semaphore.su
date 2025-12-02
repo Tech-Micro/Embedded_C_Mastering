@@ -1,0 +1,2 @@
+Counting_Semaphore.c:4:6:ProducerTask	16	static
+Counting_Semaphore.c:19:6:ConsumerTask	16	static

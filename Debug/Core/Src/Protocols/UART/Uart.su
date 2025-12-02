@@ -1,0 +1,4 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+Uart.c:4:6:UART2_Init	8	static
+Uart.c:23:6:USART2_IRQHandler	16	static,ignoring_inline_asm

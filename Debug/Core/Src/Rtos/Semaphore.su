@@ -1,0 +1,5 @@
+Semaphore.c:5:6:Motor_Saftey	16	static
+Semaphore.c:16:6:Task2	16	static
+Semaphore.c:30:6:Low_Task	16	static
+Semaphore.c:41:6:Medium_Task	16	static
+Semaphore.c:50:6:High_Task	16	static
