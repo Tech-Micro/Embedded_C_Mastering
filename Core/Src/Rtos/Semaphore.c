@@ -15,6 +15,7 @@ void Motor_Saftey(void *PVparamater)
 }
 void Task2(void *PVparamater)
 {
+
 	while(1)
 	{
 

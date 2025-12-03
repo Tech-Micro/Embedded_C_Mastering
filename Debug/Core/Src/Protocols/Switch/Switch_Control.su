@@ -3,4 +3,4 @@ core_cm4.h:1816:22:__NVIC_SetPriority	16	static
 Switch_Control.c:8:6:GPIO_Init	4	static
 Switch_Control.c:22:6:EXTI0_Init	8	static
 Switch_Control.c:42:6:EXTI0_IRQHandler	16	static,ignoring_inline_asm
-Switch_Control.c:61:6:delayMs	24	static
+Switch_Control.c:63:6:delayMs	24	static

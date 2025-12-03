@@ -49,7 +49,8 @@ Core/Src/Protocols/Switch/Switch_Control.o: \
  ../Core/Inc/Protocols/Switch/Switch_Control.h \
  ../Core/Inc/Protocols/LED/Led.h ../Core/Inc/RTOS/Counting_Semaphore.h \
  ../Core/Inc/RTOS/Mutex.h ../Core/Inc/RTOS/Queue.h \
- ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/C_Language/dummy.h
+ ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/RTOS/Task.h \
+ ../Core/Inc/Protocols/Timer/Timer.h ../Core/Inc/C_Language/dummy.h
 
 ../Core/Inc/Protocols/Switch/Switch_Control.h:
 
@@ -158,5 +159,9 @@ D:/One_drive/OneDrive/Tech_Micro/Personal/Complete_Embedded_C/Mastering_In_Embed
 ../Core/Inc/RTOS/Queue.h:
 
 ../Core/Inc/Protocols/UART/Uart.h:
+
+../Core/Inc/RTOS/Task.h:
+
+../Core/Inc/Protocols/Timer/Timer.h:
 
 ../Core/Inc/C_Language/dummy.h:

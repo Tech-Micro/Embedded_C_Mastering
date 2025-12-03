@@ -20,6 +20,7 @@ RM := rm -rf
 -include Core/Startup/subdir.mk
 -include Core/Src/Rtos/subdir.mk
 -include Core/Src/Protocols/UART/subdir.mk
+-include Core/Src/Protocols/Timer/subdir.mk
 -include Core/Src/Protocols/Switch/subdir.mk
 -include Core/Src/Protocols/LED/subdir.mk
 -include Core/Src/C_Language/subdir.mk

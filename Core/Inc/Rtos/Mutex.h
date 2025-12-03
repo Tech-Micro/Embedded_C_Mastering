@@ -6,6 +6,10 @@
 
 SemaphoreHandle_t xUartMutex;
 
+xTaskHandle Motor_Handle;
+xTaskHandle Sensor_Handle;
+
+
 void MotorTask(void *argument);
 void SensorTask(void *argument);
 

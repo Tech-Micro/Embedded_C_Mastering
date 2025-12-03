@@ -47,11 +47,13 @@ void EXTI0_IRQHandler(void)
     {
     	test++;
 
+    	//printf(">>> EXTI0 Interrupt Triggered! (HIGH PRIORITY)\n");
+
         EXTI->PR = (1U << 0);  // Clear pending
 
         xSemaphoreGiveFromISR(Motor_Fault, &xHigherPriorityTaskWoken);
 
-        delayMs(200);
+        //delayMs(400);
 
         portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
     }

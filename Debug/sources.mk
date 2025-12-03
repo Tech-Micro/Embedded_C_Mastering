@@ -23,6 +23,7 @@ SUBDIRS := \
 Core/Src/C_Language \
 Core/Src/Protocols/LED \
 Core/Src/Protocols/Switch \
+Core/Src/Protocols/Timer \
 Core/Src/Protocols/UART \
 Core/Src/Rtos \
 Core/Src \

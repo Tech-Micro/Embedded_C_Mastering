@@ -4,6 +4,8 @@
 #include "main.h"
 #include "stm32f4xx_hal.h"
 
+xTaskHandle UART_Handle;
+
 void UART_Task(void *argument);
 
 void UART2_Init();

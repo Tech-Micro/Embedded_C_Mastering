@@ -8,6 +8,9 @@
 
 SemaphoreHandle_t CountSem;
 
+xTaskHandle Producer_Handle;
+xTaskHandle Consumer_Handle;
+
 
 void ProducerTask(void *argument);
 void ConsumerTask(void *argument);

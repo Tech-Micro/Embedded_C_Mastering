@@ -17,15 +17,15 @@ int main(void)
   SEGGER_SYSVIEW_Start();
 
   GPIO_Init();
-  EXTI0_Init();
+  EXTI0_Init();    // high priority
   LED_GPIO_Init();
-  UART2_Init();  // enable USART2 + RX interrupt
-
+  UART2_Init();    // enable USART2 + RX interrupt
+  TIM3_Init();     // low priority
   RTOS_INIT();
 
   while (1)
   {
-      HAL_Delay(10);
+      HAL_Delay(1);
   }
 
 }

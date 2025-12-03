@@ -39,6 +39,7 @@ extern "C" {
 
 #include "stdio.h"
 #include "stdint.h"
+#include "string.h"
 
 #include "RTOS/Semaphore.h"
 #include "RTOS/Init.h"
@@ -48,6 +49,8 @@ extern "C" {
 #include "RTOS/Mutex.h"
 #include "RTOS/Queue.h"
 #include "Protocols/UART/Uart.h"
+#include "RTOS/Task.h"
+#include "Protocols/Timer/Timer.h"
 
 #include "C_Language/dummy.h"
 /* USER CODE END Includes */

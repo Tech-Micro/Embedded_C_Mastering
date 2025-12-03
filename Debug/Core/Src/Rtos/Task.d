@@ -1,5 +1,5 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+Core/Src/Rtos/Task.o: ../Core/Src/Rtos/Task.c ../Core/Inc/RTOS/Task.h \
+ ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
@@ -48,9 +48,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/Protocols/LED/Led.h ../Core/Inc/RTOS/Counting_Semaphore.h \
  ../Core/Inc/RTOS/Mutex.h ../Core/Inc/RTOS/Queue.h \
  ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/RTOS/Task.h \
- ../Core/Inc/Protocols/Timer/Timer.h ../Core/Inc/C_Language/dummy.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+ ../Core/Inc/Protocols/Timer/Timer.h ../Core/Inc/C_Language/dummy.h
+
+../Core/Inc/RTOS/Task.h:
 
 ../Core/Inc/main.h:
 
@@ -163,7 +163,3 @@ D:/One_drive/OneDrive/Tech_Micro/Personal/Complete_Embedded_C/Mastering_In_Embed
 ../Core/Inc/Protocols/Timer/Timer.h:
 
 ../Core/Inc/C_Language/dummy.h:
-
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
