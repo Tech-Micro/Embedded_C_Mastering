@@ -44,11 +44,14 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Core/Inc/RTOS/Semaphore.h ../Core/Inc/RTOS/Init.h \
+ ../Core/Inc/RTOS/Counting_Semaphore.h ../Core/Inc/RTOS/Mutex.h \
+ ../Core/Inc/RTOS/Queue.h ../Core/Inc/RTOS/Task.h \
  ../Core/Inc/Protocols/Switch/Switch_Control.h \
- ../Core/Inc/Protocols/LED/Led.h ../Core/Inc/RTOS/Counting_Semaphore.h \
- ../Core/Inc/RTOS/Mutex.h ../Core/Inc/RTOS/Queue.h \
- ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/RTOS/Task.h \
- ../Core/Inc/Protocols/Timer/Timer.h ../Core/Inc/C_Language/dummy.h \
+ ../Core/Inc/Protocols/LED/Led.h ../Core/Inc/Protocols/Timer/Timer.h \
+ ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/C_Language/Volatile.h \
+ ../Core/Inc/C_Language/Typecasting.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+ ../Core/Inc/C_Language/String_data.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 
@@ -146,23 +149,29 @@ D:/One_drive/OneDrive/Tech_Micro/Personal/Complete_Embedded_C/Mastering_In_Embed
 
 ../Core/Inc/RTOS/Init.h:
 
-../Core/Inc/Protocols/Switch/Switch_Control.h:
-
-../Core/Inc/Protocols/LED/Led.h:
-
 ../Core/Inc/RTOS/Counting_Semaphore.h:
 
 ../Core/Inc/RTOS/Mutex.h:
 
 ../Core/Inc/RTOS/Queue.h:
 
-../Core/Inc/Protocols/UART/Uart.h:
-
 ../Core/Inc/RTOS/Task.h:
+
+../Core/Inc/Protocols/Switch/Switch_Control.h:
+
+../Core/Inc/Protocols/LED/Led.h:
 
 ../Core/Inc/Protocols/Timer/Timer.h:
 
-../Core/Inc/C_Language/dummy.h:
+../Core/Inc/Protocols/UART/Uart.h:
+
+../Core/Inc/C_Language/Volatile.h:
+
+../Core/Inc/C_Language/Typecasting.h:
+
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h:
+
+../Core/Inc/C_Language/String_data.h:
 
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
 

@@ -1,4 +1,6 @@
-"./Core/Src/C_Language/dummy.o"
+"./Core/Src/C_Language/String_data.o"
+"./Core/Src/C_Language/Typecasting.o"
+"./Core/Src/C_Language/Volatile.o"
 "./Core/Src/Protocols/LED/Led.o"
 "./Core/Src/Protocols/Switch/Switch_Control.o"
 "./Core/Src/Protocols/Timer/Timer.o"

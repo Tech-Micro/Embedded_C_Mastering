@@ -5,13 +5,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/C_Language/dummy.c 
+../Core/Src/C_Language/String_data.c \
+../Core/Src/C_Language/Typecasting.c \
+../Core/Src/C_Language/Volatile.c 
 
 OBJS += \
-./Core/Src/C_Language/dummy.o 
+./Core/Src/C_Language/String_data.o \
+./Core/Src/C_Language/Typecasting.o \
+./Core/Src/C_Language/Volatile.o 
 
 C_DEPS += \
-./Core/Src/C_Language/dummy.d 
+./Core/Src/C_Language/String_data.d \
+./Core/Src/C_Language/Typecasting.d \
+./Core/Src/C_Language/Volatile.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +27,7 @@ Core/Src/C_Language/%.o: ../Core/Src/C_Language/%.c Core/Src/C_Language/subdir.m
 clean: clean-Core-2f-Src-2f-C_Language
 
 clean-Core-2f-Src-2f-C_Language:
-	-$(RM) ./Core/Src/C_Language/dummy.d ./Core/Src/C_Language/dummy.o
+	-$(RM) ./Core/Src/C_Language/String_data.d ./Core/Src/C_Language/String_data.o ./Core/Src/C_Language/Typecasting.d ./Core/Src/C_Language/Typecasting.o ./Core/Src/C_Language/Volatile.d ./Core/Src/C_Language/Volatile.o
 
 .PHONY: clean-Core-2f-Src-2f-C_Language
 

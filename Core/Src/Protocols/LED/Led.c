@@ -37,6 +37,7 @@ void Blue_LED_OFF()
     GPIOD->ODR &= ~(1U<<13);
 }
 
+
 void Green_LED_ON()
 {
     // Toggle LEDs
@@ -60,3 +61,16 @@ void Orange_LED_OFF()
     // Toggle LEDs
     GPIOD->ODR &= ~(1U<<15);
 }
+
+
+
+
+
+void Green_LED_TOGGLE()
+{
+    // Toggle LEDs
+    GPIOD->ODR ^= (1U<<14);
+}
+
+
+

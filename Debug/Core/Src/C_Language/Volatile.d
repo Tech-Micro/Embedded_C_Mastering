@@ -1,5 +1,5 @@
-Core/Src/Protocols/UART/Uart.o: ../Core/Src/Protocols/UART/Uart.c \
- ../Core/Inc/Protocols/UART/Uart.h ../Core/Inc/main.h \
+Core/Src/C_Language/Volatile.o: ../Core/Src/C_Language/Volatile.c \
+ ../Core/Inc/C_Language/Volatile.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -54,7 +54,7 @@ Core/Src/Protocols/UART/Uart.o: ../Core/Src/Protocols/UART/Uart.c \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
  ../Core/Inc/C_Language/String_data.h
 
-../Core/Inc/Protocols/UART/Uart.h:
+../Core/Inc/C_Language/Volatile.h:
 
 ../Core/Inc/main.h:
 

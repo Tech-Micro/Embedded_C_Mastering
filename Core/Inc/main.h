@@ -43,16 +43,21 @@ extern "C" {
 
 #include "RTOS/Semaphore.h"
 #include "RTOS/Init.h"
-#include "Protocols/Switch/Switch_Control.h"
-#include "Protocols/LED/Led.h"
 #include "RTOS/Counting_Semaphore.h"
 #include "RTOS/Mutex.h"
 #include "RTOS/Queue.h"
-#include "Protocols/UART/Uart.h"
 #include "RTOS/Task.h"
-#include "Protocols/Timer/Timer.h"
 
-#include "C_Language/dummy.h"
+
+#include "Protocols/Switch/Switch_Control.h"
+#include "Protocols/LED/Led.h"
+#include "Protocols/Timer/Timer.h"
+#include "Protocols/UART/Uart.h"
+
+
+#include "C_Language/Volatile.h"
+#include "C_Language/Typecasting.h"
+#include "C_Language/String_data.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
